@@ -1,6 +1,42 @@
-# Ignore everything inside docs/archive
-docs/archive/
+# Next.js build output
+.next
+out
+build
 
-# (Optional) keep folder but ignore contents
-# docs/archive/*
-# !docs/archive/.gitkeep
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vercel
+.vercel
+
+# AWS / Serverless
+.serverless
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs
+*.log
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+
+docs/archive
