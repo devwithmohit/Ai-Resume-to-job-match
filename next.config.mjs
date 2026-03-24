@@ -1,7 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  serverExternalPackages: ['pdfjs-dist', 'pino']
+  experimental: {
+    serverComponentsExternalPackages: ['pdfjs-dist', 'pino']
+  }
 };
 
 export default nextConfig;
